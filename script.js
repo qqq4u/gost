@@ -12,9 +12,7 @@ function erase() {
   wrapper.classList.remove('active')
 }
 
-// Add handlers to our buttons
 btnDraw.addEventListener('click', draw, false)
 btnErase.addEventListener('click', erase, false)
 
-// Play draw animation once
 setTimeout(draw, 300)
